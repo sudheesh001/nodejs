@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose node symlink /usr/bin/node
+5 verbose read json /home/ubuntu/workspace/nodejs/package.json
+6 error install Couldn't read dependencies
+7 error Error: ENOENT, open '/home/ubuntu/workspace/nodejs/package.json'
+8 error If you need help, you may report this log at:
+8 error     <http://github.com/isaacs/npm/issues>
+8 error or email it to:
+8 error     <npm-@googlegroups.com>
+9 error System Linux 3.2.0-24-generic
+10 error command "/usr/bin/node" "/usr/bin/npm" "install"
+11 error cwd /home/ubuntu/workspace/nodejs
+12 error node -v v0.10.12
+13 error npm -v 1.2.32
+14 error path /home/ubuntu/workspace/nodejs/package.json
+15 error code ENOENT
+16 error errno 34
+17 verbose exit [ 34, true ]
