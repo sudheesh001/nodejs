@@ -10,3 +10,10 @@ $ scp filename.extension hostname:~/
 
 //Add more details to public key SSH input (long method) than hostname extension procedures.
 
+Copying from local to remote
+
+scp -i securitykey.pem <filename> ubuntu@ec2...com:~/
+
+Copying from remote to local
+
+scp -i securitykey.pem ubuntu@ec2...com:~/<filename.extension> .
